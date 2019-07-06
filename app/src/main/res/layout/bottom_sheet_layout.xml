@@ -8,120 +8,97 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Hello There!"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="This is a sample Bottom sheet, create your own and make your app stylish!" />
+
         <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="Click Me"
             android:id="@+id/btClickMe"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="Click Me" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Sample Image One"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_two" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Sample Image Two"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
 
         <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
+            android:id="@+id/btClose"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bg_button_outline"
+            android:gravity="center"
+            android:text="Close Sheet" />
 
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:text="@string/app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Swipe down the sheet to dismiss" />
 
     </LinearLayout>
 
